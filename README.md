@@ -19,18 +19,18 @@ It also call tizen micphone api to control the micphone device for better output
 ## Usage
 
 - add privilege ：
-   - <tizen:privilege name="http://developer.samsung.com/privilege/microphone"/> 
-   - <tizen:privilege name="http://tizen.org/privilege/mediacapture"/> 
+   1. <tizen:privilege name="http://developer.samsung.com/privilege/microphone"/> 
+   2. <tizen:privilege name="http://tizen.org/privilege/mediacapture"/> 
 - include js ：
-   - <script src="micphone/getMicrophones.js"></script> 
-   - <script src="micphone/recorderjs/recorder.js"></script> 
-   - <script src="micphone/recorderjs/recorderWorker.js"></script> 
+   1. <script src="micphone/getMicrophones.js"></script> 
+   2. <script src="micphone/recorderjs/recorder.js"></script> 
+   3. <script src="micphone/recorderjs/recorderWorker.js"></script> 
 - API ：
-   - enableMicphoneOutput()
-   - disableMicphoneOutput()
-   - startRecord()
-   - PauseRecord()
-   - stopRecordandSaveToLocal()
-   - stopRecordandUpload()
+   1. enableMicphoneOutput()
+   2. disableMicphoneOutput()
+   3. startRecord()
+   4. PauseRecord()
+   5. stopRecordandSaveToLocal()
+   6. stopRecordandUpload()
  
    
