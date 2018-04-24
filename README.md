@@ -10,13 +10,15 @@ It also call tizen micphone api to control the micphone device for better output
 
 ## Reference
 
-- recorder.js : https://www.npmjs.com/package/recorderjs
+- recorder.js : 
+  https://www.npmjs.com/package/recorderjs
   change something to suit tizen platform based on the original code.
-- Tizen API : http://developer.samsung.com/tv/develop/api-references/samsung-product-api-references
+- Tizen API : 
+  http://developer.samsung.com/tv/develop/api-references/samsung-product-api-references
   
 ## Usage
 
-- must add privilege：
+- add privilege：
    <tizen:privilege name="http://developer.samsung.com/privilege/microphone"/>
    <tizen:privilege name="http://tizen.org/privilege/mediacapture"/>
 - include js：
